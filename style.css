@@ -1,0 +1,42 @@
+body {
+    background-color: #8c8c8c;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1020px;
+    align-items: center;
+    margin: 6rem auto 0;
+}
+
+
+button img {
+    max-width: 30px;
+}
+
+.basket-1,
+.basket-2 {
+    text-align: center;
+}
+
+.basket-1 h2,
+.basket-2 h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.basket-1 p,
+.basket-2 p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.left-arrow,
+.right-arrow {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
